@@ -1,0 +1,17 @@
+
+usar winston par aprintear en vez de console.log()
+Usar morgan
+
+
+//inicializar package.json
+npm init -y
+
+//instalar moongose, quitar en todas librerias ^
+npm i mongoose axios bcrypt cors express
+npm i nodemon --save-dev
+
+crear archivo .gitignore
+BUscar una pagina que te lo genera para node y mongo
+**********
+/node_modules
+**********
