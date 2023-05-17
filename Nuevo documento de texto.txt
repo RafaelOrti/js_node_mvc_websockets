@@ -16,7 +16,7 @@ npm i mongoose axios bcrypt cors express winston morgan
 npm i nodemon --save-dev
 
 crear archivo .gitignore
-BUscar una pagina que te lo genera para node y mongo
+Buscar una pagina que te lo genera para node y mongo
 **********
 /node_modules
 **********

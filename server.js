@@ -17,7 +17,6 @@ const app = express()
 .use('/',require('./src/routes'));
 const httpServer = require('http').createServer(app);
 
-
 db.then((connection) => {
   httpServer.listen(PORT, () => {
     logger.info(`Server running on port ${PORT}`);
