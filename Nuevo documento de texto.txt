@@ -1,5 +1,10 @@
 
 usar winston par aprintear en vez de console.log()
+https://reflectoring.io/node-logging-winston/
+
+
+https://dev.to/aws-builders/code-faster-with-amazon-codewhisperer-jo4
+
 Usar morgan
 
 
@@ -7,7 +12,7 @@ Usar morgan
 npm init -y
 
 //instalar moongose, quitar en todas librerias ^
-npm i mongoose axios bcrypt cors express
+npm i mongoose axios bcrypt cors express winston morgan
 npm i nodemon --save-dev
 
 crear archivo .gitignore

@@ -1,18 +1,32 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./db.js');
+const db = require('./src/db/dbconnect');
+const logger = require('./src/logger/logger');
+const websocket = require('./src/websocket/websocket');
+require('dotenv/config');
+const PORT = process.env.PORT;
 
-const PORT = 3000;
-
-const app = express();
-app.use(express.json());
-app.use(cors({
+const app = express()
+.use(express.json())
+.use(cors({
   origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   preflightContinue: false,
   optionsSuccessStatus: 204
-}));
-app.use(require('./router'));
+}))
+.use('/',require('./src/routes'));
+const httpServer = require('http').createServer(app);
 
-db.then(() => app.listen(PORT, () => console.log(`Server on port ${PORT}`)))
-  .catch((err) => console.log(err.message));
+
+db.then((connection) => {
+  httpServer.listen(PORT, () => {
+    logger.info(`Server running on port ${PORT}`);
+  });
+
+  connection.once('open', () => {
+    websocket(httpServer, connection);
+  });
+
+}).catch((err) => {
+  logger.error(`Error connecting to database: ${err.message}`);
+});
