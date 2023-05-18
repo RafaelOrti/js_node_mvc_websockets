@@ -1,20 +1,33 @@
 require('dotenv/config');
-const logger = require('./src/logger/logger');
+const logger = require('../logger/logger');
 const mongoose = require('mongoose');
-const { DB_USER, DB_PWD, DB_HOST, DB_NAME } = process.env;
-const URI = `mongodb+srv://${DB_USER}:${DB_PWD}@${DB_HOST}/${DB_NAME}?retryWrites=true&w=majority`;
-const OPTIONS = { useNewUrlParser: true, useUnifiedTopology: true };
+const {
+  DB_USER,
+  DB_PWD,
+  DB_HOST,
+  DB_NAME
+} = process.env;
+let URI =  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PWD}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+// URI='mongodb://localhost:27017/?retryWrites=false&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000'
+const OPTIONS = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+
+};
+
+console.log(URI)
 //es buena practica async await para base de datos?
 const dbconnect = async () => {
   try {
-    await mongoose.connect(URI, OPTIONS);
+    mongoose.connect(URI, OPTIONS);
     logger.info("MongoDB is connected");
+    return mongoose.connection;
   } catch (error) {
     logger.error("Error in connection", error);
     process.exit(1);
   }
 
-  return mongoose.connection;
+  
 };
 
-module.exports = dbconnect;
+module.exports = dbconnect();

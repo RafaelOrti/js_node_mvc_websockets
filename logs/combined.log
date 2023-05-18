@@ -1,0 +1,77 @@
+error: Error in connection Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/ {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:792:11)\n    at NativeConnection.openUri (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:767:11)\n    at async dbconnect (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\src\\db\\dbconnect.js:20:5)","timestamp":"2023-05-18T10:37:20.730Z"}
+error: Error in connection connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:792:11)\n    at NativeConnection.openUri (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:767:11)\n    at async dbconnect (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\src\\db\\dbconnect.js:21:5)","timestamp":"2023-05-18T10:41:47.588Z"}
+error: Error in connection connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:792:11)\n    at NativeConnection.openUri (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:767:11)\n    at async dbconnect (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\src\\db\\dbconnect.js:21:5)","timestamp":"2023-05-18T10:46:20.215Z"}
+error: Error in connection connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:792:11)\n    at NativeConnection.openUri (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:767:11)\n    at async dbconnect (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\src\\db\\dbconnect.js:21:5)","timestamp":"2023-05-18T16:28:16.847Z"}
+error: Error in connection connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:792:11)\n    at NativeConnection.openUri (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:767:11)\n    at async dbconnect (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\src\\db\\dbconnect.js:21:5)","timestamp":"2023-05-18T16:28:41.059Z"}
+error: Error in connection connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:792:11)\n    at NativeConnection.openUri (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:767:11)\n    at async dbconnect (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\src\\db\\dbconnect.js:22:5)","timestamp":"2023-05-18T16:30:36.344Z"}
+error: Error in connection connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at _handleConnectionErrors (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:792:11)\n    at NativeConnection.openUri (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\node_modules\\mongoose\\lib\\connection.js:767:11)\n    at async dbconnect (C:\\Users\\Rafa\\Desktop\\CONOCIMIENTOS\\NODEJS\\plantilla nodejs avanzada\\src\\db\\dbconnect.js:23:5)","timestamp":"2023-05-18T16:30:45.114Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:31:00.006Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:31:07.550Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:31:19.150Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:31:38.709Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:31:50.496Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:35:05.489Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:35:20.037Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:35:54.106Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:36:09.406Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:36:12.362Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:36:14.757Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:40:49.140Z"}
+error: Error connecting to database: connection is not defined {"timestamp":"2023-05-18T16:40:49.622Z"}
+info: Server running on port undefined {"timestamp":"2023-05-18T16:40:49.710Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:41:14.769Z"}
+error: Error connecting to database: connection is not defined {"timestamp":"2023-05-18T16:41:15.269Z"}
+info: Server running on port undefined {"timestamp":"2023-05-18T16:41:15.297Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:41:36.794Z"}
+error: Error connecting to database: connection is not defined {"timestamp":"2023-05-18T16:41:37.534Z"}
+info: Server running on port undefined {"timestamp":"2023-05-18T16:41:37.588Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:41:44.545Z"}
+error: Error connecting to database: connection is not defined {"timestamp":"2023-05-18T16:41:44.814Z"}
+info: Server running on port undefined {"timestamp":"2023-05-18T16:41:44.816Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:42:16.611Z"}
+info: Server running on port undefined {"timestamp":"2023-05-18T16:42:16.932Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:43:01.643Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:43:02.005Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:43:14.600Z"}
+info: Server running on port undefined {"timestamp":"2023-05-18T16:43:14.911Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:44:08.777Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:44:08.982Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:44:12.504Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:44:12.839Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:45:41.055Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:45:41.429Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:49:33.366Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:49:33.600Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:54:01.553Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:54:01.943Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:54:37.408Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:54:37.607Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:54:39.782Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:54:40.139Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:54:51.268Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:54:51.533Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:55:52.059Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:55:52.436Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:55:55.935Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:55:56.208Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T16:58:49.185Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T16:58:49.551Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:02:28.993Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T17:02:29.250Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:02:46.967Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T17:02:47.296Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:03:21.310Z"}
+error: Error connecting to database: connection.once is not a function {"timestamp":"2023-05-18T17:03:21.599Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:03:29.583Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T17:03:29.917Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:03:34.909Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T17:03:35.230Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:03:37.609Z"}
+error: Error connecting to database: connection.once is not a function {"timestamp":"2023-05-18T17:03:37.969Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:19:33.566Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:19:37.735Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:19:42.151Z"}
+error: Error connecting to database: connect ECONNREFUSED ::1:27017 {"timestamp":"2023-05-18T17:19:47.175Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:20:28.522Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T17:20:50.306Z"}
+error: Error connecting to database: querySrv ENOTFOUND _mongodb._tcp.cluster0.un8sv.mongodb.net {"timestamp":"2023-05-18T17:20:55.887Z"}

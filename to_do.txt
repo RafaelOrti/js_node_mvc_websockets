@@ -2,7 +2,8 @@
 
 LUCIA
 //limpiar news
-
+//poner sql
+//meter swagger
 
 RAFA
 //limpiar el user
