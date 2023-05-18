@@ -75,3 +75,19 @@ error: Error connecting to database: connect ECONNREFUSED ::1:27017 {"timestamp"
 info: MongoDB is connected {"timestamp":"2023-05-18T17:20:28.522Z"}
 info: MongoDB is connected {"timestamp":"2023-05-18T17:20:50.306Z"}
 error: Error connecting to database: querySrv ENOTFOUND _mongodb._tcp.cluster0.un8sv.mongodb.net {"timestamp":"2023-05-18T17:20:55.887Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:54:10.571Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:55:02.404Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:55:23.339Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:56:37.646Z"}
+info: Server running on port undefined {"timestamp":"2023-05-18T18:56:37.947Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:57:07.464Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T18:57:07.682Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:57:36.114Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T18:57:36.619Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:57:38.471Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:57:44.849Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T18:57:45.088Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:58:03.099Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T18:58:03.516Z"}
+info: MongoDB is connected {"timestamp":"2023-05-18T18:58:39.461Z"}
+info: Server running on port 4000 {"timestamp":"2023-05-18T18:58:39.610Z"}

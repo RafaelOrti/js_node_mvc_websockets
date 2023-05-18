@@ -8,7 +8,7 @@ const {
   DB_NAME
 } = process.env;
 let URI =  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PWD}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`;
-// URI='mongodb://localhost:27017/?retryWrites=false&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000'
+URI='mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.9.0'
 const OPTIONS = {
   useNewUrlParser: true,
   useUnifiedTopology: true,

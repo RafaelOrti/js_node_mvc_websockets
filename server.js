@@ -23,12 +23,18 @@ const httpServer = require('http').createServer(app);
 
 // dbconnect();
 // console.log(db)
+db
+
 const connection = mongoose.connection;
-connection.once('open', () => {
-  websocket(httpServer, connection);
-  httpServer.listen(PORT, () => {
-    logger.info(`Server running on port ${PORT}`);
-  });
+// connection.once('open', () => {
+//   websocket(httpServer, connection);
+//   httpServer.listen(PORT, () => {
+//     logger.info(`Server running on port ${PORT}`);
+//   });
+// });
+
+httpServer.listen(PORT, () => {
+  logger.info(`Server running on port ${PORT}`);
 });
 
 connection.on('error', (error) => logger.error(`Error connecting to database: ${error.message}`));

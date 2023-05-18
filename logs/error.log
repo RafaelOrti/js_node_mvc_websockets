@@ -13,3 +13,16 @@ error: Error connecting to database: connection.once is not a function {"timesta
 error: Error connecting to database: connection.once is not a function {"timestamp":"2023-05-18T17:03:37.969Z"}
 error: Error connecting to database: connect ECONNREFUSED ::1:27017 {"timestamp":"2023-05-18T17:19:47.175Z"}
 error: Error connecting to database: querySrv ENOTFOUND _mongodb._tcp.cluster0.un8sv.mongodb.net {"timestamp":"2023-05-18T17:20:55.887Z"}
+error: Error connecting to database: Cannot find module 'socket.io'
+Require stack:
+- C:\Users\Rafa\Desktop\CONOCIMIENTOS\NODEJS\plantilla nodejs avanzada\src\websocket\websocket.js
+- C:\Users\Rafa\Desktop\CONOCIMIENTOS\NODEJS\plantilla nodejs avanzada\server.js {"timestamp":"2023-05-18T18:54:10.959Z"}
+error: Error connecting to database: Cannot find module 'socket.io'
+Require stack:
+- C:\Users\Rafa\Desktop\CONOCIMIENTOS\NODEJS\plantilla nodejs avanzada\src\websocket\websocket.js
+- C:\Users\Rafa\Desktop\CONOCIMIENTOS\NODEJS\plantilla nodejs avanzada\server.js {"timestamp":"2023-05-18T18:55:02.781Z"}
+error: Error connecting to database: Cannot find module 'socket.io'
+Require stack:
+- C:\Users\Rafa\Desktop\CONOCIMIENTOS\NODEJS\plantilla nodejs avanzada\src\websocket\websocket.js
+- C:\Users\Rafa\Desktop\CONOCIMIENTOS\NODEJS\plantilla nodejs avanzada\server.js {"timestamp":"2023-05-18T18:55:23.677Z"}
+error: Error connecting to database: Listen method has been called more than once without closing. {"timestamp":"2023-05-18T18:57:38.858Z"}
