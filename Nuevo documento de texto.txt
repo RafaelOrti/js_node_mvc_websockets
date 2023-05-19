@@ -20,3 +20,13 @@ Buscar una pagina que te lo genera para node y mongo
 **********
 /node_modules
 **********
+
+Descargar mongoshell
+para saber la URI
+y show dbs para inspeccionar o lanzar comandos
+
+
+https://stackoverflow.com/questions/46539339/where-to-make-mongoose-connection-any-database-connection
+
+https://dev.to/duxtech/3-metodos-muy-utiles-para-objetos-en-javascript-1lk8
+

@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./src/db/dbconnect');
+const dbConnection = require('./src/db/dbconnect');
 const logger = require('./src/logger/logger');
 const websocket = require('./src/websocket/websocket');
 require('dotenv/config');
@@ -19,22 +19,14 @@ const app = express()
 const httpServer = require('http').createServer(app);
 
 
-// const dbconnect = require('./src/db/dbconnect');
 
-// dbconnect();
-// console.log(db)
-db
+dbConnection.once('open', () => {
 
-const connection = mongoose.connection;
-// connection.once('open', () => {
-//   websocket(httpServer, connection);
-//   httpServer.listen(PORT, () => {
-//     logger.info(`Server running on port ${PORT}`);
-//   });
-// });
-
-httpServer.listen(PORT, () => {
-  logger.info(`Server running on port ${PORT}`);
+  httpServer.listen(PORT, () => {
+    logger.info(`Server running on port ${PORT}`);
+  });
+  // websocket(httpServer, dbConnection);
 });
 
-connection.on('error', (error) => logger.error(`Error connecting to database: ${error.message}`));
+
+dbConnection.on('error', (error) => logger.error(`Error connecting to database: ${error.message}`));
